@@ -1,0 +1,24 @@
+:root {
+  --white: #fff;
+  --Gray: #ebf2f5;
+  --linear-blue: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  --yellow: #ffd666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  background: var(--gray);
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 18px Nunito, sans-serif;
+}
